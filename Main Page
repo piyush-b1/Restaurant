@@ -1,0 +1,327 @@
+<!doctype html>
+<html>
+<!-- Made by Rahul Kumar -->
+<head>
+<title>New project</title>
+<style>
+*{
+    box-sizing: border-box;
+}
+.box{
+    width:33.33%;
+    float:left;
+    align-content: flex-start;
+    background-color:#f3e0be;
+    color:#dc4c46;
+}
+.bxx{
+    text-align: center;
+    width:33.33%;
+    float:left;
+
+    background-color:#f3e0be;
+    color: #dc4c46;
+}
+.aaa{
+    border-radius: 50%;
+    width:5%;
+    height:5%;
+}
+
+.cleartrip::after{
+    content:"";
+    display:table;
+    clear:both;
+}
+.col{
+    text-align: center;
+    color:#dc4c46;
+}
+.ccc{
+    background-color:#f3e0be;
+    color:#dc4c46;
+}
+
+.dt {
+  height: 15px;
+  width: 15px;
+ 
+}
+a:link{
+
+color:#dc4c46;
+    
+}
+.ac{
+    align:center;
+    width:35%;
+    height:35%;
+    border-radius: 50%;
+}
+
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Slideshow container */
+.slideshow-containe {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+.txt {
+  color: #111010;
+  font-size: 22px;
+  font-synthesis: bold;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+  font-style: italic;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+mark {
+  background-color: whitesmoke ;
+  color: #dc4c46 ;
+}
+.pq{
+    font-size: 22px;
+}
+
+</style>
+</head>
+<body class="ccc">
+
+    <header>
+    <div class="box"> <img class="ac", src="C:\Users\Sony VAIO\Desktop\HTML files\img15.jpg"></div>
+    <div class="box"> <div class="col"><h1>RED fOOD</h1></div>
+       <marquee> <mark>Everything.Right, where you need it"</mark></marquee></div>
+    <div class="box">    
+        <pre>
+            &nbsp;&nbsp;&nbsp;  Welcome, <b>Guest</b>. Please login or <a href="">register</a>.<br></pre>
+        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;              <b>Username:</b><input type="text"><br>
+        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;               <b>Password:</b><input type="text"><br> 
+        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<input type="button" value="Login"> <br>
+            </div>
+    </header><br><hr>
+    <nav>  <p id="clock"></p></nav>
+    <hr>
+
+
+    <div class="box">
+    <div class="slideshow-container">
+
+        <div class="mySlides fade">
+          <div class="numbertext">1 / 3</div>
+          <img src="C:\Users\Sony VAIO\Desktop\HTML files\img21.jpg" style="width:80%">
+          <div class="text"></div>
+        </div>
+        
+        <div class="mySlides fade">
+          <div class="numbertext">2 / 3</div>
+          <img src="C:\Users\Sony VAIO\Desktop\HTML files\img 22.jpg" style="width:80%">
+          <div class="text"></div>
+        </div>
+        
+        <div class="mySlides fade">
+          <div class="numbertext">3 / 3</div>
+          <img src="C:\Users\Sony VAIO\Desktop\HTML files\img23.jpg" style="width:80%">
+          <div class="text"></div>
+        </div>
+        
+        </div>
+        <br>
+        <div style="text-align:center">
+            <span class="dot"></span> 
+            <span class="dot"></span> 
+            <span class="dot"></span> 
+          </div>
+          </div>
+                                                               
+    
+<div class="box">
+        <div class="slideshow-containe">
+        <div class="mySlid">
+  
+              <div class="pq"> <mark>HUNGRY?</mark> </div>
+                
+              </div>
+              
+              <div class="mySlid">
+                
+              <div class="pq"><mark>UNEXPECTED GUESTS?</mark> </div>
+              </div>
+              
+              <div class="mySlid">
+               
+             <div class="pq"> <mark>GAME NIGHT?</mark> </div>
+                
+              </div>
+              
+              </div>
+              <br>
+              
+              <div style="text-align:center">
+                <span class="dt"></span> 
+                <span class="dt"></span> 
+                <span class="dt"></span> 
+              </div>
+              
+
+    Book Hotels or Order food from favourite restaurants near you.
+<form>
+    <br>    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;                                      <input type="text" placeholder="Enter your delivery location"> <button type="submit">FIND FOOD</button>
+</form>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <br><br> POPULAR CITIES IN INDIA:<br> <a href="">Delhi</a> &nbsp;&nbsp; &nbsp; <a href="">Gurugram</a> &nbsp;&nbsp; &nbsp;<a href="">Jalandhar</a> &nbsp;&nbsp; &nbsp;<a href="">Phagwara</a> &nbsp;&nbsp; &nbsp; <a href="">Ludhiana</a> &nbsp;&nbsp; &nbsp;<a href="">Chandigarh</a>
+</div>
+                                                                            
+<div class="box"><mark>New Offers</mark><br>
+    1.<br>
+    2.<br>
+</div>
+<br><br><br>
+<br><br><br>
+<br><br><br>
+<br><br>
+<br><br>
+<br><br>
+<br>
+    <hr>
+    <div class="bxx"><b>About REDfOOD</b><br> Culture<br> Blog<br> Career<br> Contact<br></div>
+    <div class="bxx"><b>For Foodies</b> <br>Code of conduct<br>Community<br>Verified Users<br> Developers</div>
+    <div class="bxx"><b>For Hotels</b><br> Claim your Listing <br> Business Guidelines <br> Hotel Widgets<br>Advertise</div>
+    <hr>
+        <b>Countries:</b><br>&nbsp; &nbsp; MALAYSIA &nbsp; &nbsp;BRASIL &nbsp; &nbsp; AUSTRALIA &nbsp; &nbsp; IRELAND &nbsp; &nbsp; NEW ZEALAND <br> <br>
+    <hr>
+    Privacy &nbsp; &nbsp; &nbsp; Terms &nbsp; &nbsp; &nbsp; API Policy &nbsp; &nbsp; &nbsp; CSR &nbsp; &nbsp; &nbsp; Security &nbsp; &nbsp; &nbsp; Sitemap  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  Join Us: &nbsp; &nbsp; &nbsp;<img class="aaa" , src="C:\Users\Sony VAIO\Desktop\HTML files\img11.jpg"> &nbsp; &nbsp; &nbsp; <img class="aaa" , src="C:\Users\Sony VAIO\Desktop\HTML files\img12.jpg"> &nbsp; &nbsp; &nbsp; <img class="aaa" , src="C:\Users\Sony VAIO\Desktop\HTML files\img13.jpg">  
+
+
+    
+
+
+
+
+
+
+
+
+
+<script>
+
+setInterval(clo,1000);
+function clo()
+{
+  var dx=new Date();
+var dt=document.getElementById("clock").innerHTML=dx.toDateString();
+}
+
+
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+
+
+var slideInde = 0;
+showSlid();
+
+function showSlid() {
+  var i;
+  var slid = document.getElementsByClassName("mySlid");
+  var dt = document.getElementsByClassName("dt");
+  for (i = 0; i < slid.length; i++) {
+    slid[i].style.display = "none";  
+  }
+  slideInde++;
+  if (slideInde > slid.length) {slideInde = 1}    
+  for (i = 0; i < dt.length; i++) {
+    dt[i].className = dt[i].className.replace(" active", "");
+  }
+  slid[slideInde-1].style.display = "block";  
+  dt[slideInde-1].className += " active";
+  setTimeout(showSlid, 2000); // Change image every 2 seconds
+}
+
+
+
+
+</script>
+
+    </body>
+    </html>
